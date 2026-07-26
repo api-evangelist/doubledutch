@@ -1,0 +1,22 @@
+# DoubleDutch
+
+> DoubleDutch was a mobile event technology company whose Developer Platform (DDDP) let customers and third-party developers build React Native extensions installable into any DoubleDutch event app. DoubleDutch was acquired by Cvent in 2019; www.doubledutch.me now redirects to Cvent's mobile event apps product. The developer surface (GitHub org, docs site, and official @doubledutch npm packages) remains published but is unmaintained. There is no public REST OpenAPI — the platform is a client-side extension SDK built on React Native and Firebase.
+
+## Developer Platform
+- [Developer Platform docs](https://doubledutch.github.io/): Overview, FAQ, getting started, publishing and installing extensions
+- [Getting Started](https://doubledutch.github.io/getting-started/): Build a first DDDP extension
+- [GitHub organization](https://github.com/doubledutch): 84 repositories — SDKs, CLI, and sample extensions
+
+## SDKs / Packages (official, npm scope @doubledutch)
+- [@doubledutch/rn-client](https://www.npmjs.com/package/@doubledutch/rn-client): Bridge between an extension and the host mobile app (event + user context)
+- [@doubledutch/firebase-connector](https://www.npmjs.com/package/@doubledutch/firebase-connector): Firebase backend connector for extensions
+- [@doubledutch/rn-components](https://www.npmjs.com/package/@doubledutch/rn-components): React Native UI component library
+- [@doubledutch/admin-client](https://www.npmjs.com/package/@doubledutch/admin-client): Client library for the DoubleDutch CMS
+- [@doubledutch/cli](https://www.npmjs.com/package/@doubledutch/cli): Developer command-line interface
+
+## Repo artifacts
+- [packages/doubledutch-packages.yml](packages/doubledutch-packages.yml): Official client library catalog
+- [cli/doubledutch-cli.yml](cli/doubledutch-cli.yml): Developer CLI reference
+
+## Successor
+- [Cvent mobile event apps](https://www.cvent.com/en/event-marketing-management/mobile-event-apps): Product that DoubleDutch's technology now lives under

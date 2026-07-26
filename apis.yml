@@ -1,21 +1,51 @@
 aid: doubledutch
 name: DoubleDutch
-description: 'DoubleDutch is a company surfaced as a portfolio company of bessemer-venture-partners and
-  added to the API Evangelist network as a stub for enrichment. Sector: vertical-software. This profile
-  is a lead awaiting the enrichment pipeline.'
+description: >-
+  DoubleDutch was a San Francisco mobile event technology company backed by
+  Bessemer Venture Partners. Its Developer Platform (DDDP) let event organizers
+  and third-party developers build React Native extensions that install into
+  any DoubleDutch event app, with a Firebase-backed data layer, a UI component
+  library, an admin/CMS client, and a command-line interface — all published as
+  official @doubledutch npm packages. DoubleDutch was acquired by Cvent in 2019
+  and its technology now lives under Cvent's mobile event apps product;
+  www.doubledutch.me redirects to Cvent. The developer surface (GitHub org, the
+  doubledutch.github.io documentation site, and the npm packages) remains
+  published but is unmaintained. There is no public REST OpenAPI — the platform
+  is a client-side extension SDK rather than a hosted web API.
 url: https://raw.githubusercontent.com/api-evangelist/doubledutch/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://avatars.githubusercontent.com/u/1390024?v=4
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - bessemer-venture-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-acquired-by: cvent
+x-acquired-year: '2019'
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Vertical Software
+- Event Technology
+- Mobile Apps
+- Developer Platform
+- SDK
+- React Native
+- Acquired
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +55,26 @@ maintainers:
 common:
 - type: Website
   url: https://www.doubledutch.me/
+- type: DeveloperPortal
+  url: https://doubledutch.github.io/
+- type: Documentation
+  url: https://doubledutch.github.io/
+- type: GettingStarted
+  url: https://doubledutch.github.io/getting-started/
+- type: GitHubOrganization
+  url: https://github.com/doubledutch
+- type: Blog
+  url: https://doubledutch.github.io/blog
+- type: Packages
+  url: packages/doubledutch-packages.yml
+- type: SDKs
+  url: packages/doubledutch-packages.yml
+- type: CLI
+  url: cli/doubledutch-cli.yml
+- type: LLMsTxt
+  url: llms/doubledutch-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

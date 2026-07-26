@@ -1,0 +1,61 @@
+generated: '2026-07-18'
+method: searched
+source: https://www.npmjs.com/org/doubledutch
+notes: >-
+  First-party client libraries for the DoubleDutch Developer Platform (DDDP),
+  an extension framework for DoubleDutch event apps. All packages are published
+  under the official @doubledutch npm scope with repositories in the
+  github.com/doubledutch org. DoubleDutch was acquired by Cvent (2019); the
+  packages remain published but are no longer actively maintained (latest
+  releases 2022). No REST OpenAPI is published — the platform is a React Native
+  extension SDK, so these are the canonical client libraries.
+packages:
+  - language: javascript
+    registry: npm
+    name: "@doubledutch/rn-client"
+    version: 5.0.1
+    url: https://www.npmjs.com/package/@doubledutch/rn-client
+    repository: https://github.com/doubledutch/rn-client
+    install: npm install @doubledutch/rn-client
+    description: >-
+      Bridge between a DoubleDutch extension and the host mobile app; exposes
+      current event context and the logged-in user to the extension.
+    official: true
+  - language: javascript
+    registry: npm
+    name: "@doubledutch/firebase-connector"
+    version: 4.2.2-dev
+    url: https://www.npmjs.com/package/@doubledutch/firebase-connector
+    repository: https://github.com/doubledutch/firebase-connector
+    install: npm install @doubledutch/firebase-connector
+    description: >-
+      Connector between the DoubleDutch client and Google Cloud Platform's
+      Firebase suite for extension backends.
+    official: true
+  - language: javascript
+    registry: npm
+    name: "@doubledutch/rn-components"
+    version: 0.3.7
+    url: https://www.npmjs.com/package/@doubledutch/rn-components
+    repository: https://github.com/doubledutch/rn-components
+    install: npm install @doubledutch/rn-components
+    description: React Native UI component library for DoubleDutch extensions.
+    official: true
+  - language: javascript
+    registry: npm
+    name: "@doubledutch/admin-client"
+    version: 2.2.3
+    url: https://www.npmjs.com/package/@doubledutch/admin-client
+    repository: https://github.com/doubledutch/admin-client
+    install: npm install @doubledutch/admin-client
+    description: Client library for interacting with the DoubleDutch CMS.
+    official: true
+  - language: javascript
+    registry: npm
+    name: "@doubledutch/cli"
+    version: 2.5.7
+    url: https://www.npmjs.com/package/@doubledutch/cli
+    repository: https://github.com/doubledutch/cli
+    install: npm install -g @doubledutch/cli
+    description: DoubleDutch developer command-line interface for building and publishing extensions.
+    official: true

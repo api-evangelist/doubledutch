@@ -1,0 +1,22 @@
+generated: '2026-07-18'
+method: searched
+source: https://www.npmjs.com/package/@doubledutch/cli
+name: DoubleDutch CLI
+package: "@doubledutch/cli"
+version: 2.5.7
+repository: https://github.com/doubledutch/cli
+docs: https://doubledutch.github.io/getting-started/
+description: >-
+  First-party command-line interface for the DoubleDutch Developer Platform
+  (DDDP). Used to scaffold, run, and publish React Native extensions that
+  install into DoubleDutch event apps. Repository is archived and the package
+  is unmaintained (DoubleDutch was acquired by Cvent in 2019; last release
+  2022), but it remains the canonical developer CLI on npm.
+install:
+  - method: npm
+    command: npm install -g @doubledutch/cli
+status: archived
+notes: >-
+  Detailed command surface not captured verbatim — the CLI repository is
+  archived and the developer documentation (developer.doubledutch.me) is
+  offline. Install and repository references are recorded from npm and GitHub.
