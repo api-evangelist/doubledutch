@@ -35,6 +35,8 @@ accessModel:
   source: []
   generated: '2026-07-22'
   method: derived
+  source:
+  - {url: 'https://www.doubledutch.me/', status: 301, note: 'declared website redirects to https://www.cvent.com:443/en/event-marketing-management/mobile-event-apps — a different registrable domain (doubledutch.me -> cvent.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)'}
 image: https://avatars.githubusercontent.com/u/1390024?v=4
 x-type: company
 x-source: vc-portfolio
